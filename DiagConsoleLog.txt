@@ -1,0 +1,784 @@
+[13:36:20] - Tx	1003 Extended Diagnostic Session Start
+[13:36:21]	Timeout - No response message received within expected timeframe!
+[13:36:22] - Tx	1040 VehicleManufacturerSpecific Session Start
+[13:36:23]	Timeout - No response message received within expected timeframe!
+[13:36:24] - Tx	1002 Programming Session Start
+[13:36:25]	Timeout - No response message received within expected timeframe!
+[13:36:25] - Tx	1040 VehicleManufacturerSpecific Session Start
+[13:36:26]	Timeout - No response message received within expected timeframe!
+[13:36:32] - Tx	22 F1 82
+[13:36:33]	Timeout - No response message received within expected timeframe!
+[13:44:36] - Tx	1003 Extended Diagnostic Session Start
+[13:44:36]	Renault_UDS
+[13:44:36] - Rx	Positive response:
+    P2Max	    50 [ms]
+    P2*Max	    5000 [ms]
+[13:44:36]	Device 'Renault_UDS' is online.
+[13:44:38] - Tx	2E 40 1C 01
+[13:44:38]	Renault_UDS
+[13:44:38] - Rx	Positive response.
+[13:44:56]	Macro running ('Replay').
+[13:44:56] - Tx	 22 40 00
+[13:44:56] - Tx	 22 40 16
+[13:44:56] - Tx	 22 40 1C
+[13:44:56] - Tx	 22 40 1F
+[13:44:56] - Tx	 22 41 30
+[13:44:56] - Tx	 22 F0 12
+[13:44:56] - Tx	 22 F1 82
+[13:44:56] - Tx	 22 F1 87
+[13:44:56] - Tx	 22 F1 88
+[13:44:56] - Tx	 22 F1 91
+[13:44:56] - Tx	 22 F1 94
+[13:44:56] - Tx	 22 F3 FF
+[13:44:56] - Tx	 22 01 0A
+[13:44:57] - Tx	 22 01 06
+[13:44:57] - Tx	 22 01 1A
+[13:44:57] - Tx	 22 01 45
+[13:44:57] - Tx	 22 40 AA
+[13:44:57] - Tx	 22 41 6B
+[13:44:57] - Tx	 22 41 6C
+[13:44:57] - Tx	 22 40 06
+[13:44:57] - Tx	 22 40 05
+[13:44:57] - Tx	 22 40 54
+[13:44:57] - Tx	 22 01 51
+[13:44:57] - Tx	 22 60 00
+[13:44:57]	Macro execution ended.
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    Vehicle definition	    Virgin A-IVC
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    AIVC Activation status	    TCU activated
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    USB Definition	    USB Cable mounted
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    Ecall Zone	    Europe
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    Car Variant	    Renault
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    DataRecord	    282773778R
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    Number of Module	    0x00
+    Supplier Coding.	    0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    Vehicle Manufacturer Spare Part R	    282756021R
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    ConfigurationFileReferenceLink data	    282756021R
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    VehicleManuECUHWNumber	    282A78862R
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    System Supplier ECU SW	    SW6                             
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    HWVariantID	    28
+[13:44:57]	Renault_UDS
+[13:44:57] - Rx	Positive response:
+    TCU state	    StOnInit
+[13:44:57]	Renault_UDS
+[13:44:57]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:44:57]	Renault_UDS
+[13:44:57]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:44:57]	Renault_UDS
+[13:44:57]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:44:58]	Renault_UDS
+[13:44:58]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:44:58]	Renault_UDS
+[13:44:58]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:44:58]	Renault_UDS
+[13:44:58]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:44:58]	Renault_UDS
+[13:44:58]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:44:58]	Renault_UDS
+[13:44:58]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:44:58]	Renault_UDS
+[13:44:58] - Rx	Positive response:
+    Byte 0	    0x52
+        Byte 0.Year	    18
+        Byte 0.Month	    1
+    Byte 1	    0xD9
+        Byte 1.Month	    1
+        Byte 1.Day	    22
+        Byte 1.Hour	    1
+    Byte 2	    0x76
+        Byte 2.Hour	    6
+        Byte 2.Minutes	    7
+    Byte 3	    0xDF
+        Byte 3.Minutes	    3
+        Byte 3.Seconds	    55
+[13:44:58]	Renault_UDS
+[13:44:58]	Error when processing of response message ('Primitive has invalid length')!
+[13:44:58] - Rx	Positive response:
+[13:44:58] - Rx	 62 01 51 41 32 43 30 33
+[13:44:58] - Rx	 31 37 31 34 30 30
+    DataRecord	    A2C0317140
+[13:44:58]	Renault_UDS
+[13:44:58] - Rx	Positive response:
+    Byte 0	    0x1D
+        Byte 0.$AE00 - Battery	    Activated
+        Byte 0.$AE01  - Internal Battery	    Deactivated
+        Byte 0.$C079 - CAN-V	    Activated
+        Byte 0.$C074 - CAN-M	    Activated
+        Byte 0.$AE05 - Airbag CAN	    Activated
+        Byte 0.$AE06 - Aux_In_Info/Tel_Mute_Out	    Deactivated
+        Byte 0.$AE07 - EMU	    Deactivated
+        Byte 0.$AE08 - Ecall Microphone	    Deactivated
+    Byte 1	    0x60
+        Byte 1.$AE09 - Ecall LED RED	    Deactivated
+        Byte 1.$AE0A - Ecall LED GREEN	    Deactivated
+        Byte 1.$AE0B - Ecall LED AUTO	    Deactivated
+        Byte 1.$AE0C - Ecall LED BACKLIGHT	    Deactivated
+        Byte 1.$AE0D - Ecall Button	    Deactivated
+        Byte 1.$AE0E - SYSTEM INTERNAL FAILURE	    Activated
+        Byte 1.$AE0F - GNSS COMMUNICATIONS FAILURE	    Activated
+        Byte 1.$AE10  - MIC_OUT	    Deactivated
+    Byte 2	    0xEF
+        Byte 2.$AE11   - A-IVC OVERHEAT	    Activated
+        Byte 2.$AE12 - Virgin Configuration	    Activated
+        Byte 2.$AE13 - HU/Navi USB	    Activated
+        Byte 2.$AE14 - SMS	    Activated
+        Byte 2.$AE15 - Voice Failure	    Deactivated
+        Byte 2.$AE16 - PPP Data Comm. Authentication	    Activated
+        Byte 2.$AE17 - Vnext Authentication	    Activated
+        Byte 2.$AE18 - Vnext Functional	    Activated
+    Byte 3	    0x3F
+        Byte 3.$AE19 - Vnext Config	    Activated
+        Byte 3.$AE20 - A-IVC Data Discarded	    Activated
+        Byte 3.$AE21 - Invalid A-IVC	    Activated
+        Byte 3.$AE22 - SIM Failure	    Activated
+        Byte 3.$AE23 - Cellular Registration Denied	    Activated
+        Byte 3.$AE31 - A-IVC Clock	    Activated
+        Byte 3.$AE32 - Audio HU	    Deactivated
+        Byte 3.$AE33 - Dedicated speaker	    Deactivated
+    Byte 4	    0xF7
+        Byte 4.$AE34 - Ext. Cellular Antenna	    Activated
+        Byte 4.$AE35 - Ext. GNSS Antenna	    Activated
+        Byte 4.$AE36 - Acceleromter Failure	    Activated
+        Byte 4.$AE37 - Airbag Hardwire	    Deactivated
+        Byte 4.$AE38 - Vnext Master Authentication NOK	    Activated
+        Byte 4.$AE39 - Vnext Regional Authentication NOK	    Activated
+        Byte 4.$AE3A - Vnext Master Tiemout	    Activated
+        Byte 4.$AE3B -  Vnext Regional Timeout	    Activated
+    Byte 5	    0xFF
+        Byte 5.$AE3C - Part ID is Unknown	    Activated
+        Byte 5.$AE3D - Bad Pairing A-IVC & VIN	    Activated
+        Byte 5.$AE3E - No Certificate Available	    Activated
+        Byte 5.$AE3F - Part Certificate Verification Fails	    Activated
+        Byte 5.$AE40 - Part Certificate Storage Error	    Activated
+        Byte 5.$AE41  - A-IVC Authentication Fails	    Activated
+        Byte 5.$AE42 - A-IVC No Region Setting	    Activated
+        Byte 5.$AE43 - A-IVC Invalid Region Setting 	    Activated
+    Byte 6	    0x9F
+        Byte 6.$AE44 - Region Setting Storage Error	    Activated
+        Byte 6.$AE45 - A-IVC No Partition Setting	    Activated
+        Byte 6.$AE46 - A-IVC Invalid Partition Setting	    Activated
+        Byte 6.$AE47 - Partition Setting Storage Error	    Activated
+        Byte 6.$AE48 - Service Check Not Complete	    Activated
+        Byte 6.$AE94 - Relay Control	    Deactivated
+        Byte 6.$AE04 - Internal Battery Capacity Low_A	    Deactivated
+        Byte 6.$AE49 - Remote Actuator not Activated	    Activated
+    Byte 7	    0xFF
+        Byte 7.$AE4A - Remote Actuator service activated without ciphering key	    Activated
+        Byte 7.$AE4B - Remote Actuator without Cipher key	    Activated
+        Byte 7.$AE4C - Remote Actuator without unknown ID	    Activated
+        Byte 7.$AE4D - Remote Actuator- CAN failure	    Activated
+        Byte 7.$AE4E - Remote Actuator- PIN code missing	    Activated
+        Byte 7.$AE4F - BCM Pairing DTC	    Activated
+        Byte 7.Not Used Bit6	    Activated
+        Byte 7.Not Used Bit7	    Activated
+[13:45:09]	Macro running ('Replay').
+[13:45:09] - Tx	 22 40 00
+[13:45:09] - Tx	 22 40 16
+[13:45:09] - Tx	 22 40 1C
+[13:45:09] - Tx	 22 40 1F
+[13:45:09] - Tx	 22 41 30
+[13:45:10] - Tx	 22 F0 12
+[13:45:10] - Tx	 22 F1 82
+[13:45:10] - Tx	 22 F1 87
+[13:45:10] - Tx	 22 F1 88
+[13:45:10] - Tx	 22 F1 91
+[13:45:10] - Tx	 22 F1 94
+[13:45:10] - Tx	 22 F3 FF
+[13:45:10] - Tx	 22 01 0A
+[13:45:10] - Tx	 22 01 06
+[13:45:10] - Tx	 22 01 1A
+[13:45:10] - Tx	 22 01 45
+[13:45:10] - Tx	 22 40 AA
+[13:45:10] - Tx	 22 41 6B
+[13:45:10] - Tx	 22 41 6C
+[13:45:10] - Tx	 22 40 06
+[13:45:10] - Tx	 22 40 05
+[13:45:10] - Tx	 22 40 54
+[13:45:10] - Tx	 22 01 51
+[13:45:10] - Tx	 22 60 00
+[13:45:10]	Macro execution ended.
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    Vehicle definition	    Virgin A-IVC
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    AIVC Activation status	    TCU activated
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    USB Definition	    USB Cable mounted
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    Ecall Zone	    Europe
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    Car Variant	    Renault
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    DataRecord	    282773778R
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    Number of Module	    0x00
+    Supplier Coding.	    0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    Vehicle Manufacturer Spare Part R	    282756021R
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    ConfigurationFileReferenceLink data	    282756021R
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    VehicleManuECUHWNumber	    282A78862R
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    System Supplier ECU SW	    SW6                             
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    HWVariantID	    28
+[13:45:10]	Renault_UDS
+[13:45:10] - Rx	Positive response:
+    TCU state	    StOnInit
+[13:45:10]	Renault_UDS
+[13:45:10]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:10]	Renault_UDS
+[13:45:10]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:10]	Renault_UDS
+[13:45:10]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:10]	Renault_UDS
+[13:45:10]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:10]	Renault_UDS
+[13:45:10]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:11]	Renault_UDS
+[13:45:11]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:11]	Renault_UDS
+[13:45:11]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:11]	Renault_UDS
+[13:45:11]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:11]	Renault_UDS
+[13:45:11] - Rx	Positive response:
+    Byte 0	    0x52
+        Byte 0.Year	    18
+        Byte 0.Month	    1
+    Byte 1	    0xD9
+        Byte 1.Month	    1
+        Byte 1.Day	    22
+        Byte 1.Hour	    1
+    Byte 2	    0x76
+        Byte 2.Hour	    6
+        Byte 2.Minutes	    7
+    Byte 3	    0xDF
+        Byte 3.Minutes	    3
+        Byte 3.Seconds	    55
+[13:45:11]	Renault_UDS
+[13:45:11]	Error when processing of response message ('Primitive has invalid length')!
+[13:45:11] - Rx	Positive response:
+[13:45:11] - Rx	 62 01 51 41 32 43 30 33
+[13:45:11] - Rx	 31 37 31 34 30 30
+    DataRecord	    A2C0317140
+[13:45:11]	Renault_UDS
+[13:45:11] - Rx	Positive response:
+    Byte 0	    0x1D
+        Byte 0.$AE00 - Battery	    Activated
+        Byte 0.$AE01  - Internal Battery	    Deactivated
+        Byte 0.$C079 - CAN-V	    Activated
+        Byte 0.$C074 - CAN-M	    Activated
+        Byte 0.$AE05 - Airbag CAN	    Activated
+        Byte 0.$AE06 - Aux_In_Info/Tel_Mute_Out	    Deactivated
+        Byte 0.$AE07 - EMU	    Deactivated
+        Byte 0.$AE08 - Ecall Microphone	    Deactivated
+    Byte 1	    0x60
+        Byte 1.$AE09 - Ecall LED RED	    Deactivated
+        Byte 1.$AE0A - Ecall LED GREEN	    Deactivated
+        Byte 1.$AE0B - Ecall LED AUTO	    Deactivated
+        Byte 1.$AE0C - Ecall LED BACKLIGHT	    Deactivated
+        Byte 1.$AE0D - Ecall Button	    Deactivated
+        Byte 1.$AE0E - SYSTEM INTERNAL FAILURE	    Activated
+        Byte 1.$AE0F - GNSS COMMUNICATIONS FAILURE	    Activated
+        Byte 1.$AE10  - MIC_OUT	    Deactivated
+    Byte 2	    0xEF
+        Byte 2.$AE11   - A-IVC OVERHEAT	    Activated
+        Byte 2.$AE12 - Virgin Configuration	    Activated
+        Byte 2.$AE13 - HU/Navi USB	    Activated
+        Byte 2.$AE14 - SMS	    Activated
+        Byte 2.$AE15 - Voice Failure	    Deactivated
+        Byte 2.$AE16 - PPP Data Comm. Authentication	    Activated
+        Byte 2.$AE17 - Vnext Authentication	    Activated
+        Byte 2.$AE18 - Vnext Functional	    Activated
+    Byte 3	    0x3F
+        Byte 3.$AE19 - Vnext Config	    Activated
+        Byte 3.$AE20 - A-IVC Data Discarded	    Activated
+        Byte 3.$AE21 - Invalid A-IVC	    Activated
+        Byte 3.$AE22 - SIM Failure	    Activated
+        Byte 3.$AE23 - Cellular Registration Denied	    Activated
+        Byte 3.$AE31 - A-IVC Clock	    Activated
+        Byte 3.$AE32 - Audio HU	    Deactivated
+        Byte 3.$AE33 - Dedicated speaker	    Deactivated
+    Byte 4	    0xF7
+        Byte 4.$AE34 - Ext. Cellular Antenna	    Activated
+        Byte 4.$AE35 - Ext. GNSS Antenna	    Activated
+        Byte 4.$AE36 - Acceleromter Failure	    Activated
+        Byte 4.$AE37 - Airbag Hardwire	    Deactivated
+        Byte 4.$AE38 - Vnext Master Authentication NOK	    Activated
+        Byte 4.$AE39 - Vnext Regional Authentication NOK	    Activated
+        Byte 4.$AE3A - Vnext Master Tiemout	    Activated
+        Byte 4.$AE3B -  Vnext Regional Timeout	    Activated
+    Byte 5	    0xFF
+        Byte 5.$AE3C - Part ID is Unknown	    Activated
+        Byte 5.$AE3D - Bad Pairing A-IVC & VIN	    Activated
+        Byte 5.$AE3E - No Certificate Available	    Activated
+        Byte 5.$AE3F - Part Certificate Verification Fails	    Activated
+        Byte 5.$AE40 - Part Certificate Storage Error	    Activated
+        Byte 5.$AE41  - A-IVC Authentication Fails	    Activated
+        Byte 5.$AE42 - A-IVC No Region Setting	    Activated
+        Byte 5.$AE43 - A-IVC Invalid Region Setting 	    Activated
+    Byte 6	    0x9F
+        Byte 6.$AE44 - Region Setting Storage Error	    Activated
+        Byte 6.$AE45 - A-IVC No Partition Setting	    Activated
+        Byte 6.$AE46 - A-IVC Invalid Partition Setting	    Activated
+        Byte 6.$AE47 - Partition Setting Storage Error	    Activated
+        Byte 6.$AE48 - Service Check Not Complete	    Activated
+        Byte 6.$AE94 - Relay Control	    Deactivated
+        Byte 6.$AE04 - Internal Battery Capacity Low_A	    Deactivated
+        Byte 6.$AE49 - Remote Actuator not Activated	    Activated
+    Byte 7	    0xFF
+        Byte 7.$AE4A - Remote Actuator service activated without ciphering key	    Activated
+        Byte 7.$AE4B - Remote Actuator without Cipher key	    Activated
+        Byte 7.$AE4C - Remote Actuator without unknown ID	    Activated
+        Byte 7.$AE4D - Remote Actuator- CAN failure	    Activated
+        Byte 7.$AE4E - Remote Actuator- PIN code missing	    Activated
+        Byte 7.$AE4F - BCM Pairing DTC	    Activated
+        Byte 7.Not Used Bit6	    Activated
+        Byte 7.Not Used Bit7	    Activated
+[13:45:17] - Tx	2E 40 1C 01
+[13:45:18]	Renault_UDS
+[13:45:18] - Rx	Positive response.
+[13:45:20] - Tx	1003 Extended Diagnostic Session Start
+[13:45:20]	Renault_UDS
+[13:45:20] - Rx	Positive response:
+    P2Max	    50 [ms]
+    P2*Max	    5000 [ms]
+[13:45:23]	Macro running ('Replay').
+[13:45:23] - Tx	 22 40 00
+[13:45:23] - Tx	 22 40 16
+[13:45:23] - Tx	 22 40 1C
+[13:45:24] - Tx	 22 40 1F
+[13:45:24] - Tx	 22 41 30
+[13:45:24] - Tx	 22 F0 12
+[13:45:24] - Tx	 22 F1 82
+[13:45:24] - Tx	 22 F1 87
+[13:45:24] - Tx	 22 F1 88
+[13:45:24] - Tx	 22 F1 91
+[13:45:24] - Tx	 22 F1 94
+[13:45:24] - Tx	 22 F3 FF
+[13:45:24] - Tx	 22 01 0A
+[13:45:24] - Tx	 22 01 06
+[13:45:24] - Tx	 22 01 1A
+[13:45:24] - Tx	 22 01 45
+[13:45:24] - Tx	 22 40 AA
+[13:45:24] - Tx	 22 41 6B
+[13:45:24] - Tx	 22 41 6C
+[13:45:24] - Tx	 22 40 06
+[13:45:24] - Tx	 22 40 05
+[13:45:24] - Tx	 22 40 54
+[13:45:24] - Tx	 22 01 51
+[13:45:24] - Tx	 22 60 00
+[13:45:24]	Macro execution ended.
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    Vehicle definition	    Virgin A-IVC
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    AIVC Activation status	    TCU activated
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    USB Definition	    USB Cable mounted
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    Ecall Zone	    Europe
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    Car Variant	    Renault
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    DataRecord	    282773778R
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    Number of Module	    0x00
+    Supplier Coding.	    0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    Vehicle Manufacturer Spare Part R	    282756021R
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    ConfigurationFileReferenceLink data	    282756021R
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    VehicleManuECUHWNumber	    282A78862R
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    System Supplier ECU SW	    SW6                             
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    HWVariantID	    28
+[13:45:24]	Renault_UDS
+[13:45:24] - Rx	Positive response:
+    TCU state	    StOnInit
+[13:45:24]	Renault_UDS
+[13:45:24]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:24]	Renault_UDS
+[13:45:24]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:24]	Renault_UDS
+[13:45:24]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:24]	Renault_UDS
+[13:45:24]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:24]	Renault_UDS
+[13:45:24]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:24]	Renault_UDS
+[13:45:24]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:24]	Renault_UDS
+[13:45:25]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:25]	Renault_UDS
+[13:45:25]	Negative response:
+    RESPONSE CODE	    Conditions not correct
+[13:45:25]	Renault_UDS
+[13:45:25] - Rx	Positive response:
+    Byte 0	    0x52
+        Byte 0.Year	    18
+        Byte 0.Month	    1
+    Byte 1	    0xD9
+        Byte 1.Month	    1
+        Byte 1.Day	    22
+        Byte 1.Hour	    1
+    Byte 2	    0x76
+        Byte 2.Hour	    6
+        Byte 2.Minutes	    7
+    Byte 3	    0xDF
+        Byte 3.Minutes	    3
+        Byte 3.Seconds	    55
+[13:45:25]	Renault_UDS
+[13:45:25]	Error when processing of response message ('Primitive has invalid length')!
+[13:45:25] - Rx	Positive response:
+[13:45:25] - Rx	 62 01 51 41 32 43 30 33
+[13:45:25] - Rx	 31 37 31 34 30 30
+    DataRecord	    A2C0317140
+[13:45:25]	Renault_UDS
+[13:45:25] - Rx	Positive response:
+    Byte 0	    0x1D
+        Byte 0.$AE00 - Battery	    Activated
+        Byte 0.$AE01  - Internal Battery	    Deactivated
+        Byte 0.$C079 - CAN-V	    Activated
+        Byte 0.$C074 - CAN-M	    Activated
+        Byte 0.$AE05 - Airbag CAN	    Activated
+        Byte 0.$AE06 - Aux_In_Info/Tel_Mute_Out	    Deactivated
+        Byte 0.$AE07 - EMU	    Deactivated
+        Byte 0.$AE08 - Ecall Microphone	    Deactivated
+    Byte 1	    0x60
+        Byte 1.$AE09 - Ecall LED RED	    Deactivated
+        Byte 1.$AE0A - Ecall LED GREEN	    Deactivated
+        Byte 1.$AE0B - Ecall LED AUTO	    Deactivated
+        Byte 1.$AE0C - Ecall LED BACKLIGHT	    Deactivated
+        Byte 1.$AE0D - Ecall Button	    Deactivated
+        Byte 1.$AE0E - SYSTEM INTERNAL FAILURE	    Activated
+        Byte 1.$AE0F - GNSS COMMUNICATIONS FAILURE	    Activated
+        Byte 1.$AE10  - MIC_OUT	    Deactivated
+    Byte 2	    0xEF
+        Byte 2.$AE11   - A-IVC OVERHEAT	    Activated
+        Byte 2.$AE12 - Virgin Configuration	    Activated
+        Byte 2.$AE13 - HU/Navi USB	    Activated
+        Byte 2.$AE14 - SMS	    Activated
+        Byte 2.$AE15 - Voice Failure	    Deactivated
+        Byte 2.$AE16 - PPP Data Comm. Authentication	    Activated
+        Byte 2.$AE17 - Vnext Authentication	    Activated
+        Byte 2.$AE18 - Vnext Functional	    Activated
+    Byte 3	    0x3F
+        Byte 3.$AE19 - Vnext Config	    Activated
+        Byte 3.$AE20 - A-IVC Data Discarded	    Activated
+        Byte 3.$AE21 - Invalid A-IVC	    Activated
+        Byte 3.$AE22 - SIM Failure	    Activated
+        Byte 3.$AE23 - Cellular Registration Denied	    Activated
+        Byte 3.$AE31 - A-IVC Clock	    Activated
+        Byte 3.$AE32 - Audio HU	    Deactivated
+        Byte 3.$AE33 - Dedicated speaker	    Deactivated
+    Byte 4	    0xF7
+        Byte 4.$AE34 - Ext. Cellular Antenna	    Activated
+        Byte 4.$AE35 - Ext. GNSS Antenna	    Activated
+        Byte 4.$AE36 - Acceleromter Failure	    Activated
+        Byte 4.$AE37 - Airbag Hardwire	    Deactivated
+        Byte 4.$AE38 - Vnext Master Authentication NOK	    Activated
+        Byte 4.$AE39 - Vnext Regional Authentication NOK	    Activated
+        Byte 4.$AE3A - Vnext Master Tiemout	    Activated
+        Byte 4.$AE3B -  Vnext Regional Timeout	    Activated
+    Byte 5	    0xFF
+        Byte 5.$AE3C - Part ID is Unknown	    Activated
+        Byte 5.$AE3D - Bad Pairing A-IVC & VIN	    Activated
+        Byte 5.$AE3E - No Certificate Available	    Activated
+        Byte 5.$AE3F - Part Certificate Verification Fails	    Activated
+        Byte 5.$AE40 - Part Certificate Storage Error	    Activated
+        Byte 5.$AE41  - A-IVC Authentication Fails	    Activated
+        Byte 5.$AE42 - A-IVC No Region Setting	    Activated
+        Byte 5.$AE43 - A-IVC Invalid Region Setting 	    Activated
+    Byte 6	    0x9F
+        Byte 6.$AE44 - Region Setting Storage Error	    Activated
+        Byte 6.$AE45 - A-IVC No Partition Setting	    Activated
+        Byte 6.$AE46 - A-IVC Invalid Partition Setting	    Activated
+        Byte 6.$AE47 - Partition Setting Storage Error	    Activated
+        Byte 6.$AE48 - Service Check Not Complete	    Activated
+        Byte 6.$AE94 - Relay Control	    Deactivated
+        Byte 6.$AE04 - Internal Battery Capacity Low_A	    Deactivated
+        Byte 6.$AE49 - Remote Actuator not Activated	    Activated
+    Byte 7	    0xFF
+        Byte 7.$AE4A - Remote Actuator service activated without ciphering key	    Activated
+        Byte 7.$AE4B - Remote Actuator without Cipher key	    Activated
+        Byte 7.$AE4C - Remote Actuator without unknown ID	    Activated
+        Byte 7.$AE4D - Remote Actuator- CAN failure	    Activated
+        Byte 7.$AE4E - Remote Actuator- PIN code missing	    Activated
+        Byte 7.$AE4F - BCM Pairing DTC	    Activated
+        Byte 7.Not Used Bit6	    Activated
+        Byte 7.Not Used Bit7	    Activated
+[13:45:52] - Tx	1003 Extended Diagnostic Session Start
+[13:45:52]	Renault_UDS
+[13:45:52] - Rx	Positive response:
+    P2Max	    50 [ms]
+    P2*Max	    5000 [ms]
+[13:45:53]	Macro running ('Replay').
+[13:45:53] - Tx	 22 40 00
+[13:45:53] - Tx	 22 40 16
+[13:45:54] - Tx	 22 40 1C
+[13:45:54] - Tx	 22 40 1F
+[13:45:54] - Tx	 22 41 30
+[13:45:54] - Tx	 22 F0 12
+[13:45:54] - Tx	 22 F1 82
+[13:45:54] - Tx	 22 F1 87
+[13:45:54] - Tx	 22 F1 88
+[13:45:54] - Tx	 22 F1 91
+[13:45:54] - Tx	 22 F1 94
+[13:45:54] - Tx	 22 F3 FF
+[13:45:54] - Tx	 22 01 0A
+[13:45:54] - Tx	 22 01 06
+[13:45:54] - Tx	 22 01 1A
+[13:45:54] - Tx	 22 01 45
+[13:45:54] - Tx	 22 40 AA
+[13:45:54] - Tx	 22 41 6B
+[13:45:54] - Tx	 22 41 6C
+[13:45:54] - Tx	 22 40 06
+[13:45:54] - Tx	 22 40 05
+[13:45:54] - Tx	 22 40 54
+[13:45:54] - Tx	 22 01 51
+[13:45:54] - Tx	 22 60 00
+[13:45:54]	Macro execution ended.
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    Vehicle definition	    Virgin A-IVCcc
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    AIVC Activation status	    TCU activated
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    USB Definition	    USB Cable mounted
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    Ecall Zone	    Europe
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    Car Variant	    Renault
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    DataRecord	    282773778R
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    Number of Module	    0x00
+    Supplier Coding.	    0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    Vehicle Manufacturer Spare Part R	    282756021R
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    ConfigurationFileReferenceLink data	    282756021R
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    VehicleManuECUHWNumber	    282A78862R
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    System Supplier ECU SW	    SW6                             
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    HWVariantID	    28
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    TCU state	    StOnInit
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    IMEI 	    352375090067448
+[13:45:54]	Renault_UDS
+[13:45:54] - Rx	Positive response:
+    SIM lock status	    SIM unlock
+    SIM CCID	    89883011849830537502
+    SIM Identificatio (IMSI)	    901312114682547
+[13:45:55]	Renault_UDS
+[13:45:55] - Rx	Positive response:
+    Byte 0	    PIN Code Activated
+    Byte 1-32 eUICC EID	    89033023311330000000000346452327
+    Byte 33-52 eUICC ICCID	    89883011849830537502
+    Byte 53-67 eUICC IMSI	    901312114682547
+    Byte 63-82 eUICC MSISDN	                   
+[13:45:55]	Renault_UDS
+[13:45:55] - Rx	Positive response:
+    MQTT payload compression	    Compression disable
+[13:45:55]	Renault_UDS
+[13:45:55] - Rx	Positive response:
+    URL	                                                                                                    
+                                
+[13:45:55]	Renault_UDS
+[13:45:55] - Rx	Positive response:
+    PORT	    22 B3 (no interpretation possible)
+    WARNING: Invalid parameter value!
+    InvalidSignal: Invalid Data
+[13:45:56]	Renault_UDS
+[13:45:56] - Rx	Positive response:
+    APN1	    iceleste.dcp.orange.com                                        
+    APN1UID	                                    
+    APNiPWD	                                    
+[13:45:56]	Renault_UDS
+[13:45:56] - Rx	Positive response:
+    DataRecord	    90131 
+[13:45:56]	Renault_UDS
+[13:45:56] - Rx	Positive response:
+    Byte 0	    0x52
+        Byte 0.Year	    18
+        Byte 0.Month	    1
+    Byte 1	    0xD9
+        Byte 1.Month	    1
+        Byte 1.Day	    22
+        Byte 1.Hour	    1
+    Byte 2	    0x76
+        Byte 2.Hour	    6
+        Byte 2.Minutes	    7
+    Byte 3	    0xDF
+        Byte 3.Minutes	    3
+        Byte 3.Seconds	    55
+[13:45:56]	Renault_UDS
+[13:45:56]	Error when processing of response message ('Primitive has invalid length')!
+[13:45:56] - Rx	Positive response:
+[13:45:56] - Rx	 62 01 51 41 32 43 30 33
+[13:45:56] - Rx	 31 37 31 34 30 30
+    DataRecord	    A2C0317140
+[13:45:56]	Renault_UDS
+[13:45:56] - Rx	Positive response:
+    Byte 0	    0x1D
+        Byte 0.$AE00 - Battery	    Activated
+        Byte 0.$AE01  - Internal Battery	    Deactivated
+        Byte 0.$C079 - CAN-V	    Activated
+        Byte 0.$C074 - CAN-M	    Activated
+        Byte 0.$AE05 - Airbag CAN	    Activated
+        Byte 0.$AE06 - Aux_In_Info/Tel_Mute_Out	    Deactivated
+        Byte 0.$AE07 - EMU	    Deactivated
+        Byte 0.$AE08 - Ecall Microphone	    Deactivated
+    Byte 1	    0x60
+        Byte 1.$AE09 - Ecall LED RED	    Deactivated
+        Byte 1.$AE0A - Ecall LED GREEN	    Deactivated
+        Byte 1.$AE0B - Ecall LED AUTO	    Deactivated
+        Byte 1.$AE0C - Ecall LED BACKLIGHT	    Deactivated
+        Byte 1.$AE0D - Ecall Button	    Deactivated
+        Byte 1.$AE0E - SYSTEM INTERNAL FAILURE	    Activated
+        Byte 1.$AE0F - GNSS COMMUNICATIONS FAILURE	    Activated
+        Byte 1.$AE10  - MIC_OUT	    Deactivated
+    Byte 2	    0xEF
+        Byte 2.$AE11   - A-IVC OVERHEAT	    Activated
+        Byte 2.$AE12 - Virgin Configuration	    Activated
+        Byte 2.$AE13 - HU/Navi USB	    Activated
+        Byte 2.$AE14 - SMS	    Activated
+        Byte 2.$AE15 - Voice Failure	    Deactivated
+        Byte 2.$AE16 - PPP Data Comm. Authentication	    Activated
+        Byte 2.$AE17 - Vnext Authentication	    Activated
+        Byte 2.$AE18 - Vnext Functional	    Activated
+    Byte 3	    0x3F
+        Byte 3.$AE19 - Vnext Config	    Activated
+        Byte 3.$AE20 - A-IVC Data Discarded	    Activated
+        Byte 3.$AE21 - Invalid A-IVC	    Activated
+        Byte 3.$AE22 - SIM Failure	    Activated
+        Byte 3.$AE23 - Cellular Registration Denied	    Activated
+        Byte 3.$AE31 - A-IVC Clock	    Activated
+        Byte 3.$AE32 - Audio HU	    Deactivated
+        Byte 3.$AE33 - Dedicated speaker	    Deactivated
+    Byte 4	    0xF7
+        Byte 4.$AE34 - Ext. Cellular Antenna	    Activated
+        Byte 4.$AE35 - Ext. GNSS Antenna	    Activated
+        Byte 4.$AE36 - Acceleromter Failure	    Activated
+        Byte 4.$AE37 - Airbag Hardwire	    Deactivated
+        Byte 4.$AE38 - Vnext Master Authentication NOK	    Activated
+        Byte 4.$AE39 - Vnext Regional Authentication NOK	    Activated
+        Byte 4.$AE3A - Vnext Master Tiemout	    Activated
+        Byte 4.$AE3B -  Vnext Regional Timeout	    Activated
+    Byte 5	    0xFF
+        Byte 5.$AE3C - Part ID is Unknown	    Activated
+        Byte 5.$AE3D - Bad Pairing A-IVC & VIN	    Activated
+        Byte 5.$AE3E - No Certificate Available	    Activated
+        Byte 5.$AE3F - Part Certificate Verification Fails	    Activated
+        Byte 5.$AE40 - Part Certificate Storage Error	    Activated
+        Byte 5.$AE41  - A-IVC Authentication Fails	    Activated
+        Byte 5.$AE42 - A-IVC No Region Setting	    Activated
+        Byte 5.$AE43 - A-IVC Invalid Region Setting 	    Activated
+    Byte 6	    0x9F
+        Byte 6.$AE44 - Region Setting Storage Error	    Activated
+        Byte 6.$AE45 - A-IVC No Partition Setting	    Activated
+        Byte 6.$AE46 - A-IVC Invalid Partition Setting	    Activated
+        Byte 6.$AE47 - Partition Setting Storage Error	    Activated
+        Byte 6.$AE48 - Service Check Not Complete	    Activated
+        Byte 6.$AE94 - Relay Control	    Deactivated
+        Byte 6.$AE04 - Internal Battery Capacity Low_A	    Deactivated
+        Byte 6.$AE49 - Remote Actuator not Activated	    Activated
+    Byte 7	    0xFF
+        Byte 7.$AE4A - Remote Actuator service activated without ciphering key	    Activated
+        Byte 7.$AE4B - Remote Actuator without Cipher key	    Activated
+        Byte 7.$AE4C - Remote Actuator without unknown ID	    Activated
+        Byte 7.$AE4D - Remote Actuator- CAN failure	    Activated
+        Byte 7.$AE4E - Remote Actuator- PIN code missing	    Activated
+        Byte 7.$AE4F - BCM Pairing DTC	    Activated
+        Byte 7.Not Used Bit6	    Activated
+        Byte 7.Not Used Bit7	    Activated
+[13:46:02]	Device 'Renault_UDS' is offline.
